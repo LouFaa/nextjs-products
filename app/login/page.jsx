@@ -27,7 +27,7 @@ const LoginPage = () => {
         <div className={styles.container}>
 
           <div className={" text-center mb-3"}>
-            <label className={styles.LoginTitle} >Username</label>
+            <label style={{marginRight: "10px"}} className={styles.LoginTitle} >Username</label>
             <input className={styles.input}
               onChange={(e) => setUsername(e.target.value)} value={username}
               type="text" id="floatingInput" />
@@ -36,7 +36,7 @@ const LoginPage = () => {
           </div>
 
           <div className="text-center mb-3">
-            <label
+            <label style={{marginRight: "10px"}}
               htmlFor="password"
               className="mb-2 block text-sm "
             >Password</label>
